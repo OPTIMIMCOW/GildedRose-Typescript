@@ -22,7 +22,7 @@ const items = [
     new Item(nameBackStagePass, 5, 10),
     new Item(nameBackStagePass, 0, 10)
 ]
-console.log(items);
+//console.log(items);
 
 const gildedRose = new GildedRose(items);
 gildedRose.updateQuality();
