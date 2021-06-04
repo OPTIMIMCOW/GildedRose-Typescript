@@ -1,5 +1,7 @@
 import { expect } from 'chai';
+//declare var require: any;
 import { Item, GildedRose } from '../app/gilded-rose';
+
 
 describe('Gilded Rose', function () {
 
@@ -8,5 +10,4 @@ describe('Gilded Rose', function () {
         const items = gildedRose.updateQuality();
         expect(items[0].name).to.equal('fixme');
     });
-
 });
